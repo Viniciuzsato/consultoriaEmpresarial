@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.servicos.ServicosFragment" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Sistema de gestão de qualidade"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Sistema de gestão de qualidade"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi mi, imperdiet at placerat a, lobortis luctus orci. Curabitur pharetra dui quis eleifend euismod. Ut blandit in ante ut rutrum. Integer lobortis, quam dapibus dignissim lobortis, mi magna gravida sem, nec tincidunt turpis erat a erat. Nunc nec imperdiet orci, eget hendrerit sem. Nullam nisi leo, egestas sit amet elit ut, ullamcorper consequat enim. Duis egestas condimentum arcu efficitur tincidunt. Curabitur in tortor ante. Suspendisse bibendum ornare velit, placerat egestas felis iaculis nec. Proin leo velit, posuere in interdum sed, placerat tempor urna."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi mi, imperdiet at placerat a, lobortis luctus orci. Curabitur pharetra dui quis eleifend euismod. Ut blandit in ante ut rutrum. Integer lobortis, quam dapibus dignissim lobortis, mi magna gravida sem, nec tincidunt turpis erat a erat. Nunc nec imperdiet orci, eget hendrerit sem. Nullam nisi leo, egestas sit amet elit ut, ullamcorper consequat enim. Duis egestas condimentum arcu efficitur tincidunt. Curabitur in tortor ante. Suspendisse bibendum ornare velit, placerat egestas felis iaculis nec. Proin leo velit, posuere in interdum sed, placerat tempor urna."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+</androidx.constraintlayout.widget.ConstraintLayout>
